@@ -8,6 +8,3 @@ def home():
         {'pair': 'XAUUSD', 'direction': 'Buy', 'entry': 2321.5, 'sl': 2309.0, 'tp': 2345.0, 'rr': '1:2'},
         {'pair': 'GBPUSD', 'direction': 'Sell', 'entry': 1.2870, 'sl': 1.2910, 'tp': 1.2790, 'rr': '1:2.5'}
     ])
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000)
